@@ -40,7 +40,8 @@ table {
 }
 
 header, section {
-  padding: 20px;
+  padding: 20px
+  border 50px;
 }
 
 #menu {
@@ -56,4 +57,3 @@ footer {
   padding: 10px;
 }
 
-/* Estilos adicionales según sea necesario */

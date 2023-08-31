@@ -1,0 +1,59 @@
+
+:root {
+    --color-dark: #333;       
+    --color-light: #fff;      
+    --link-color: orangered;  
+  }
+  
+ 
+  html {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  
+  a {
+    color: var(--link-color);
+    transition: color 0.3s ease-out;
+  }
+  
+  a:hover {
+    color: var(--color-light);
+  }
+  
+ 
+  img,iframe,table {
+    max-width: 100%;
+  }
+  
+
+  .horizontal-line {
+    border: 3px double var(--color-light);
+  }
+  
+
+  .text-center {
+    text-align: center;
+  }
+  
+ 
+  .link-color {
+    color: var(--link-color);
+  }
+  
+ 
+  .rounded-image {
+    border-radius: 50%;
+  }
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+  }
+  
+  .col {
+    border: 1px double var(--color-light);
+    padding: 1rem;
+  }
